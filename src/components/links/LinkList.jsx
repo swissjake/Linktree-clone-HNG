@@ -4,8 +4,8 @@ import "./LinkList.css";
 const LinkList = ({ name, id, links }) => {
   return (
     <div className="linkList__container">
-      <a href={links} target="_blank" rel="noreferrer">
-        <button id={id}>{name}</button>
+      <a href={links} target="_blank" id={id} rel="noreferrer">
+        {name}
       </a>
     </div>
   );
