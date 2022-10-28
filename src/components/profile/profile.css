@@ -1,0 +1,14 @@
+.profile__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 64px;
+}
+
+.profile__container>p{
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
