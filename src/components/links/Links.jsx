@@ -14,8 +14,16 @@ const Links = () => {
           <LinkList {...item} key={index} />
         ))}
         <div className="socials__container">
-          <img src={slack} alt="slack" />
-          <img src={github} alt="github" />
+          <a href="/">
+            <img src={slack} alt="slack" />
+          </a>
+          <a
+            href="https://github.com/swissjake"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={github} alt="github" />
+          </a>
         </div>
       </div>
     </DefaultLayout>

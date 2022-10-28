@@ -1,5 +1,5 @@
 import React from "react";
-import profile__img from "../../assets/images/profile__img.png";
+import mypic from "../../assets/images/mypic.jpg";
 import arrow from "../../assets/images/arrow.svg";
 import menu from "../../assets/images/menu.svg";
 import DefaultLayout from "../../layouts/DefaultLayout";
@@ -9,7 +9,7 @@ const Profile = () => {
   return (
     <DefaultLayout>
       <figure className="profile__container">
-        <img id="profile__img" src={profile__img} alt="profile__img" />
+        <img id="profile__img" src={mypic} alt="profile__img" />
         <div>
           <p id="twitter">Swissjake001</p>
           <span>/</span>

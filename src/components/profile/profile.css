@@ -18,6 +18,12 @@
     color: #101828;
 }
 
+.profile__container #profile__img{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+
 .profile__container>div>p:last-child, span{
     display: none;
 }
