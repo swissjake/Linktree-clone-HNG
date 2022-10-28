@@ -5,7 +5,7 @@
   
 }
 
-.linkList__container > div{
+.linkList__container a> button{
     width: 100%;
     padding: 24px 0;
     background: #EAECF0;
@@ -16,6 +16,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    cursor: pointer;
    
 }
 
@@ -27,7 +28,7 @@
 
 
 @media (min-width:320px) and (max-width:700px){
-    .linkList__container > div{
+    .linkList__container a> button{
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
