@@ -2,5 +2,18 @@
     max-width: 1440px;
   padding: 0 144px;
     margin: 0 auto;
-    border: 3px solid red;
+   
 }
+
+@media (min-width:320px) and (max-width:480px){
+    .container{
+        padding: 0 16px;
+    }
+}
+
+@media (min-width:481px) and (max-width:1024px){
+    .container{
+        padding: 0 32px;
+    }
+}
+
