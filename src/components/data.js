@@ -5,10 +5,15 @@ export const items = [
     id: "twitter",
   },
   { name: "Zuri Team", links: "https://training.zuri.team/", id: "btn__zuri" },
-  { name: "Zuri Books", links: "https://books.zuri.team/", id: "books" },
+  {
+    name: "Zuri Books",
+    links: "https://books.zuri.team/",
+    id: "books",
+    title: "design and coding books",
+  },
   {
     name: "Python Books",
-    links: "https://training.zuri.team/python-for-beginners?ref_id=Sofiritari",
+    links: "https://books.zuri.team/python-for-beginners?ref_id=sofiritari",
     id: "book__python",
   },
   {
