@@ -1,13 +1,17 @@
 import "./App.css";
 import Footer from "./components/footer/Footer";
-import Links from "./components/links/Links";
-import Profile from "./components/profile/Profile";
+import { Routes, Route } from "react-router-dom";
+import Contact from "./pages/contact/Contact";
+import ProfilePage from "./pages/ProfilePage";
 
 function App() {
   return (
     <div className="App">
-      <Profile />
-      <Links />
+      <Routes>
+        <Route path="/" element={<ProfilePage />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+
       <Footer />
     </div>
   );
