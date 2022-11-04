@@ -11,7 +11,7 @@ const Links = () => {
     <DefaultLayout>
       <div>
         {items?.map((item, index) => (
-          <LinkList {...item} key={index} />
+          <LinkList {...item} index={index} key={index} />
         ))}
         <div className="socials__container">
           <a href="/">

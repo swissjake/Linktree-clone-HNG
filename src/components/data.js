@@ -28,6 +28,7 @@ export const items = [
   },
   {
     name: "Contact Me",
+    links: "",
     link2: "/contact",
     id: "contact",
   },

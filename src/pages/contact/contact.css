@@ -116,12 +116,11 @@ margin-left: 12px;
     }
 
     .checkbox__container{
-        margin-top: -20px;
+      align-items: flex-start;
     }
 
     .checkbox__text{
-       margin-top: 40px;
-      
+        margin-top: -2px;
     }
 
     .contact__container{
