@@ -1,13 +1,20 @@
 import React from "react";
 import "./input.css";
 
-const Input = ({ label, type, placeholder, id }) => {
+const Input = ({ label, type, placeholder, id, handleChange, name }) => {
   return (
     <div className="input__container">
       <label className="inputComponent__label" htmlFor="">
         {label}
       </label>
-      <input type={type} id={id} placeholder={placeholder} />
+      <input
+        className={""}
+        type={type}
+        id={id}
+        placeholder={placeholder}
+        onChange={handleChange}
+        name={name}
+      />
     </div>
   );
 };

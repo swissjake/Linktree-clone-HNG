@@ -21,6 +21,8 @@
 font-size: 20px;
 line-height: 30px;
 color: #475467;
+margin-top: 20px;
+margin-bottom: 48px;
 }
 
 .inputs__container{
@@ -80,6 +82,24 @@ margin-left: 12px;
 
 }
 
+.checkbox__resize{
+    width: 20px;
+    height: 20px;
+}
+
+.second__input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.error__message{
+    color:#F83F23;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
 .contact__container button{
     width: 100%;
     background: #1570EF;
@@ -120,12 +140,18 @@ margin-left: 12px;
     }
 
     .checkbox__text{
-        margin-top: -2px;
+        margin-top: 1px;
     }
 
     .contact__container{
         margin-top: 64px;
     }
+
+    .checkbox__resize{
+        width: 25px;
+        height: 25px;
+    }
+   
 
 }
 
