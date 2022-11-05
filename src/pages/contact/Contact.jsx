@@ -99,12 +99,7 @@ const Contact = () => {
           </div>
 
           <div className="checkbox__container">
-            <input
-              onChange={handleChange}
-              type="checkbox"
-              name="check"
-              className="checkbox__resize"
-            />
+            <input type="checkbox" name="check" className="checkbox__resize" />
             <label className="checkbox__text">
               You agree to providing your data to &#123;name&#125; who may
               contact you.
