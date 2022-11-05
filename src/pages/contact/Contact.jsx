@@ -106,7 +106,8 @@ const Contact = () => {
               className="checkbox__resize"
             />
             <label className="checkbox__text">
-              You agree to providing your data to name who may contact you.
+              You agree to providing your data to &#123;name&#125; who may
+              contact you.
             </label>
           </div>
           <button type="submit" id="btn_submit">
